@@ -35,13 +35,13 @@ $siswa2 = new Siswa("akbar", "023000213", "Laki-laki");
 echo $siswa1->nama;
 echo $siswa1->nisn;
 echo "</br>";
-$siswa1->set_nilai(90,85,70)
+$siswa1->set_nilai(90,85,70);
 echo $siswa1->nilai_akhir();
 echo "</br>";
 echo $siswa2->nama;
 echo $siswa2->nisn;
 echo "</br>";
-$siswa2->set_nilai(80,85,95)
+$siswa2->set_nilai(80,85,95);
 echo $siswa2->nilai_akhir();
 
 
